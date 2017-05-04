@@ -10,5 +10,6 @@ namespace BlogCmd.Data
         public static IEnumerable<Comentário> DbComentário { get; set; } = new List<Comentário>();
         public static IEnumerable<Postagem> DbPostagem { get; set; } = new List<Postagem>();
         public static IEnumerable<Usuario> DbUsuario { get; set; } = new List<Usuario>();
+
     }
 }
